@@ -1,0 +1,1 @@
+{"type": "minecraft:block", "pools": [{"bonus_rolls": 0.0, "conditions": [{"condition": "minecraft:survives_explosion"}], "entries": [{"type": "minecraft:item", "name": "extrawoodblocksultimate:acacia_beehive"}], "rolls": 1.0}], "random_sequence": "extrawoodblocksultimate:blocks/acacia_beehive"}

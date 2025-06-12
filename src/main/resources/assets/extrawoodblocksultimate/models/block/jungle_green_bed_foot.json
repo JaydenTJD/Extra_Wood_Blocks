@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:block/template_bed_foot",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/green",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/jungle",
+     "particle": "minecraft:block/jungle_planks"
+    }
+}

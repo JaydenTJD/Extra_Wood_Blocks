@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:item/bed",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/orange",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/dark_oak",
+     "particle": "minecraft:block/dark_oak_planks"
+    }
+}

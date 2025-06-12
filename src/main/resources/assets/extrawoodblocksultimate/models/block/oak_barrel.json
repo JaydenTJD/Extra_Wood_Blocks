@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "extrawoodblocksultimate:block/oak_barrel_top",
+    "down": "extrawoodblocksultimate:block/oak_barrel_bottom",
+    "all": "extrawoodblocksultimate:block/oak_barrel_side"
+  }
+}

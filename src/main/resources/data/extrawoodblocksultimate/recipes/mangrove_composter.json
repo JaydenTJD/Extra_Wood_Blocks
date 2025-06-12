@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "misc", "key": {"S": {"item": "minecraft:mangrove_slab"}}, "pattern": ["S S", "S S", "SSS"], "result": {"item": "extrawoodblocksultimate:mangrove_composter"}, "show_notification": true}

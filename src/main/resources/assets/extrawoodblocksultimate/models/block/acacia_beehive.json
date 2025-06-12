@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "extrawoodblocksultimate:block/acacia_beehive_end",
+    "front": "extrawoodblocksultimate:block/acacia_beehive_front",
+    "particle": "extrawoodblocksultimate:block/acacia_beehive_side",
+    "side": "extrawoodblocksultimate:block/acacia_beehive_side",
+    "top": "extrawoodblocksultimate:block/acacia_beehive_end"
+  }
+}

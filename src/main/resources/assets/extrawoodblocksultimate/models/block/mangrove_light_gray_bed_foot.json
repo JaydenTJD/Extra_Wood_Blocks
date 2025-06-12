@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:block/template_bed_foot",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/light_gray",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/mangrove",
+     "particle": "minecraft:block/mangrove_planks"
+    }
+}

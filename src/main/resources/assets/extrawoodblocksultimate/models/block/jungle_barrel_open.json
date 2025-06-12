@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "extrawoodblocksultimate:block/jungle_barrel_top_open",
+    "down": "extrawoodblocksultimate:block/jungle_barrel_bottom",
+    "all": "extrawoodblocksultimate:block/jungle_barrel_side"
+  }
+}

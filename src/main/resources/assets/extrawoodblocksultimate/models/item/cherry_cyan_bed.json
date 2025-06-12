@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:item/bed",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/cyan",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/cherry",
+     "particle": "minecraft:block/cherry_planks"
+    }
+}

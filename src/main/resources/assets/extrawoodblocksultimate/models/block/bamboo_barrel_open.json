@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "extrawoodblocksultimate:block/bamboo_barrel_top_open",
+    "down": "extrawoodblocksultimate:block/bamboo_barrel_bottom",
+    "all": "extrawoodblocksultimate:block/bamboo_barrel_side"
+  }
+}

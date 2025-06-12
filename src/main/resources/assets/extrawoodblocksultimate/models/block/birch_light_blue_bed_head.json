@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:block/template_bed_head",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/light_blue",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/birch",
+     "particle": "minecraft:block/birch_planks"
+    }
+}

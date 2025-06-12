@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "misc", "key": {"#": {"item": "minecraft:birch_planks"}, "@": {"item": "minecraft:paper"}}, "pattern": ["@@", "##", "##"], "result": {"item": "extrawoodblocksultimate:birch_cartography_table"}, "show_notification": true}

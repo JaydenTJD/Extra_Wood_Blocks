@@ -1,0 +1,9 @@
+{
+  "parent": "extrawoodblocksultimate:block/template_bed_head",
+  "textures":
+    {
+     "bed": "minecraft:entity/bed/green",
+     "bed_frame": "extrawoodblocksultimate:entity/bed/acacia",
+     "particle": "minecraft:block/acacia_planks"
+    }
+}
