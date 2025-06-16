@@ -3,6 +3,8 @@ package net.jaydentjd.extrawoodblocksultimate.block;
 import net.jaydentjd.extrawoodblocksultimate.ExtraWoodBlocksUltimate;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomBedBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomCartographyTableBlock;
+import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomGrindstoneBlock;
+import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomJukeboxBlock;
 import net.jaydentjd.extrawoodblocksultimate.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
@@ -428,6 +430,182 @@ public class ModBlocks {
             () -> new ComposterBlock(BlockBehaviour.Properties.copy(Blocks.COMPOSTER)), 64);
     public static final RegistryObject<ComposterBlock> WARPED_COMPOSTER = registerBlock("warped_composter",
             () -> new ComposterBlock(BlockBehaviour.Properties.copy(Blocks.COMPOSTER)), 64);
+
+    public static final RegistryObject<FletchingTableBlock> ACACIA_FLETCHING_TABLE = registerBlock("acacia_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> BAMBOO_FLETCHING_TABLE = registerBlock("bamboo_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> CHERRY_FLETCHING_TABLE = registerBlock("cherry_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> CRIMSON_FLETCHING_TABLE = registerBlock("crimson_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> DARK_OAK_FLETCHING_TABLE = registerBlock("dark_oak_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> JUNGLE_FLETCHING_TABLE = registerBlock("jungle_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> MANGROVE_FLETCHING_TABLE = registerBlock("mangrove_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> OAK_FLETCHING_TABLE = registerBlock("oak_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> SPRUCE_FLETCHING_TABLE = registerBlock("spruce_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+    public static final RegistryObject<FletchingTableBlock> WARPED_FLETCHING_TABLE = registerBlock("warped_fletching_table",
+            () -> new FletchingTableBlock(BlockBehaviour.Properties.copy(Blocks.FLETCHING_TABLE)), 64);
+
+    public static final RegistryObject<CustomGrindstoneBlock> ACACIA_BASALT_GRINDSTONE = registerBlock("acacia_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> ACACIA_DEEPSLATE_GRINDSTONE = registerBlock("acacia_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> ACACIA_GRANITE_GRINDSTONE = registerBlock("acacia_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> ACACIA_SANDSTONE_GRINDSTONE = registerBlock("acacia_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> ACACIA_STONE_GRINDSTONE = registerBlock("acacia_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BAMBOO_BASALT_GRINDSTONE = registerBlock("bamboo_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BAMBOO_DEEPSLATE_GRINDSTONE = registerBlock("bamboo_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BAMBOO_GRANITE_GRINDSTONE = registerBlock("bamboo_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BAMBOO_SANDSTONE_GRINDSTONE = registerBlock("bamboo_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BAMBOO_STONE_GRINDSTONE = registerBlock("bamboo_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BIRCH_BASALT_GRINDSTONE = registerBlock("birch_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BIRCH_DEEPSLATE_GRINDSTONE = registerBlock("birch_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BIRCH_GRANITE_GRINDSTONE = registerBlock("birch_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BIRCH_SANDSTONE_GRINDSTONE = registerBlock("birch_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> BIRCH_STONE_GRINDSTONE = registerBlock("birch_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CHERRY_BASALT_GRINDSTONE = registerBlock("cherry_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CHERRY_DEEPSLATE_GRINDSTONE = registerBlock("cherry_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CHERRY_GRANITE_GRINDSTONE = registerBlock("cherry_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CHERRY_SANDSTONE_GRINDSTONE = registerBlock("cherry_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CHERRY_STONE_GRINDSTONE = registerBlock("cherry_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CRIMSON_BASALT_GRINDSTONE = registerBlock("crimson_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CRIMSON_DEEPSLATE_GRINDSTONE = registerBlock("crimson_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CRIMSON_GRANITE_GRINDSTONE = registerBlock("crimson_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CRIMSON_SANDSTONE_GRINDSTONE = registerBlock("crimson_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> CRIMSON_STONE_GRINDSTONE = registerBlock("crimson_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> DARK_OAK_BASALT_GRINDSTONE = registerBlock("dark_oak_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> DARK_OAK_DEEPSLATE_GRINDSTONE = registerBlock("dark_oak_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> DARK_OAK_GRANITE_GRINDSTONE = registerBlock("dark_oak_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> DARK_OAK_SANDSTONE_GRINDSTONE = registerBlock("dark_oak_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> JUNGLE_BASALT_GRINDSTONE = registerBlock("jungle_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> JUNGLE_DEEPSLATE_GRINDSTONE = registerBlock("jungle_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> JUNGLE_GRANITE_GRINDSTONE = registerBlock("jungle_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> JUNGLE_SANDSTONE_GRINDSTONE = registerBlock("jungle_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> JUNGLE_STONE_GRINDSTONE = registerBlock("jungle_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> MANGROVE_BASALT_GRINDSTONE = registerBlock("mangrove_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> MANGROVE_DEEPSLATE_GRINDSTONE = registerBlock("mangrove_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> MANGROVE_GRANITE_GRINDSTONE = registerBlock("mangrove_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> MANGROVE_SANDSTONE_GRINDSTONE = registerBlock("mangrove_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> MANGROVE_STONE_GRINDSTONE = registerBlock("mangrove_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> OAK_BASALT_GRINDSTONE = registerBlock("oak_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> OAK_DEEPSLATE_GRINDSTONE = registerBlock("oak_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> OAK_GRANITE_GRINDSTONE = registerBlock("oak_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> OAK_SANDSTONE_GRINDSTONE = registerBlock("oak_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> OAK_STONE_GRINDSTONE = registerBlock("oak_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> SPRUCE_BASALT_GRINDSTONE = registerBlock("spruce_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> SPRUCE_DEEPSLATE_GRINDSTONE = registerBlock("spruce_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> SPRUCE_GRANITE_GRINDSTONE = registerBlock("spruce_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> SPRUCE_SANDSTONE_GRINDSTONE = registerBlock("spruce_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> SPRUCE_STONE_GRINDSTONE = registerBlock("spruce_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> WARPED_BASALT_GRINDSTONE = registerBlock("warped_basalt_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> WARPED_DEEPSLATE_GRINDSTONE = registerBlock("warped_deepslate_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> WARPED_GRANITE_GRINDSTONE = registerBlock("warped_granite_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> WARPED_SANDSTONE_GRINDSTONE = registerBlock("warped_sandstone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+    public static final RegistryObject<CustomGrindstoneBlock> WARPED_STONE_GRINDSTONE = registerBlock("warped_stone_grindstone",
+            () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
+
+    public static final RegistryObject<CustomJukeboxBlock> ACACIA_JUKEBOX = registerBlock("acacia_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> BAMBOO_JUKEBOX = registerBlock("bamboo_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> BIRCH_JUKEBOX = registerBlock("birch_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> CHERRY_JUKEBOX = registerBlock("cherry_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> CRIMSON_JUKEBOX = registerBlock("crimson_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> DARK_OAK_JUKEBOX = registerBlock("dark_oak_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> JUNGLE_JUKEBOX = registerBlock("jungle_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> MANGROVE_JUKEBOX = registerBlock("mangrove_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> OAK_JUKEBOX = registerBlock("oak_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> SPRUCE_JUKEBOX = registerBlock("spruce_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<CustomJukeboxBlock> WARPED_JUKEBOX = registerBlock("warped_jukebox",
+            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+
+    public static final RegistryObject<NoteBlock> ACACIA_NOTE_BLOCK = registerBlock("acacia_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> BAMBOO_NOTE_BLOCK = registerBlock("bamboo_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> BIRCH_NOTE_BLOCK = registerBlock("birch_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> CHERRY_NOTE_BLOCK = registerBlock("cherry_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> CRIMSON_NOTE_BLOCK = registerBlock("crimson_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> DARK_OAK_NOTE_BLOCK = registerBlock("dark_oak_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> JUNGLE_NOTE_BLOCK = registerBlock("jungle_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> MANGROVE_NOTE_BLOCK = registerBlock("mangrove_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> OAK_NOTE_BLOCK = registerBlock("oak_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> SPRUCE_NOTE_BLOCK = registerBlock("spruce_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+    public static final RegistryObject<NoteBlock> WARPED_NOTE_BLOCK = registerBlock("warped_note_block",
+            () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
 
 
 
