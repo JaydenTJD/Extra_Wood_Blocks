@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.registries.RegistryObject;
 
 public abstract class CustomBaseEntityBlock extends Block implements EntityBlock {
     protected CustomBaseEntityBlock(BlockBehaviour.Properties pProperties) {
@@ -49,7 +50,7 @@ public abstract class CustomBaseEntityBlock extends Block implements EntityBlock
     }
 
     @Nullable
-    protected static <E extends BlockEntity, T extends BlockEntity> BlockEntityTicker<T> createCustomTickerHelper(CustomBlockEntityType<T> pServerType, CustomBlockEntityType<E> pClientType, BlockEntityTicker<? super E> pTicker) {
+    protected static <E extends BlockEntity, T extends BlockEntity> BlockEntityTicker<T> createCustomTickerHelper(CustomBlockEntityType pServerType, CustomBlockEntityType pClientType, BlockEntityTicker<? super E> pTicker) {
         return pClientType == pServerType ? (BlockEntityTicker<T>)pTicker : null;
     }
 }

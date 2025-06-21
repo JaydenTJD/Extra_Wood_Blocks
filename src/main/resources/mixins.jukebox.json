@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "package": "net.jaydentjd.extrawoodblocksultimate.mixin",
+  "refmap": "extrawoodblocksultimate.mixin-refmap.json",
+  "mixins": [
+    "JukeboxMixin"
+  ]
+}

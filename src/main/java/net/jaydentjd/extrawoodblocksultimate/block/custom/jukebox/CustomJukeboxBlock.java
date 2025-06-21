@@ -26,6 +26,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.registries.RegistryObject;
 
 public class CustomJukeboxBlock extends BaseEntityBlock {
     public static final BooleanProperty HAS_RECORD = BlockStateProperties.HAS_RECORD;
@@ -50,7 +51,7 @@ public class CustomJukeboxBlock extends BaseEntityBlock {
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         if (pState.getValue(HAS_RECORD)) {
             BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-            if (blockentity instanceof JukeboxBlockEntity) {
+            if (blockentity instanceof CustomJukeboxBlockEntity) {
                 CustomJukeboxBlockEntity jukeboxblockentity = (CustomJukeboxBlockEntity)blockentity;
                 jukeboxblockentity.popOutRecord();
                 if (pLevel.isClientSide()) {
@@ -65,8 +66,8 @@ public class CustomJukeboxBlock extends BaseEntityBlock {
     public void onRemove(BlockState pState, Level pLevel, BlockPos pPos, BlockState pNewState, boolean pIsMoving) {
         if (!pState.is(pNewState.getBlock())) {
             BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-            if (blockentity instanceof JukeboxBlockEntity) {
-                JukeboxBlockEntity jukeboxblockentity = (JukeboxBlockEntity)blockentity;
+            if (blockentity instanceof CustomJukeboxBlockEntity) {
+                CustomJukeboxBlockEntity jukeboxblockentity = (CustomJukeboxBlockEntity)blockentity;
                 jukeboxblockentity.popOutRecord();
             }
 
@@ -100,7 +101,7 @@ public class CustomJukeboxBlock extends BaseEntityBlock {
      */
     public int getSignal(BlockState pState, BlockGetter pLevel, BlockPos pPos, Direction pDirection) {
         BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-        if (blockentity instanceof JukeboxBlockEntity jukeboxblockentity) {
+        if (blockentity instanceof CustomJukeboxBlockEntity jukeboxblockentity) {
             if (jukeboxblockentity.isRecordPlaying()) {
                 return 15;
             }
@@ -127,7 +128,7 @@ public class CustomJukeboxBlock extends BaseEntityBlock {
      */
     public int getAnalogOutputSignal(BlockState pBlockState, Level pLevel, BlockPos pPos) {
         BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-        if (blockentity instanceof JukeboxBlockEntity jukeboxblockentity) {
+        if (blockentity instanceof CustomJukeboxBlockEntity jukeboxblockentity) {
             Item item = jukeboxblockentity.getFirstItem().getItem();
             if (item instanceof RecordItem recorditem) {
                 return recorditem.getAnalogOutput();
@@ -152,7 +153,7 @@ public class CustomJukeboxBlock extends BaseEntityBlock {
     }
 
     @Nullable
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, CustomBlockEntityType<T> pBlockEntityType) {
-        return pState.getValue(HAS_RECORD) ? CustomBaseEntityBlock.createCustomTickerHelper(pBlockEntityType, CustomBlockEntityType.JUKEBOX, CustomJukeboxBlockEntity::playRecordTick) : null;
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, CustomBlockEntityType pBlockEntityType) {
+        return pState.getValue(HAS_RECORD) ? CustomBaseEntityBlock.createCustomTickerHelper(pBlockEntityType, (CustomBlockEntityType) CustomBlockEntityType.CUSTOM_JUKEBOX.get(), CustomJukeboxBlockEntity::playRecordTick) : null;
     }
 }

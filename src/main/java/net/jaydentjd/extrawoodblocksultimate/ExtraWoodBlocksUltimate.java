@@ -2,6 +2,7 @@ package net.jaydentjd.extrawoodblocksultimate;
 
 import com.mojang.logging.LogUtils;
 import net.jaydentjd.extrawoodblocksultimate.block.ModBlocks;
+import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomBlockEntityType;
 import net.jaydentjd.extrawoodblocksultimate.item.ModCreativeModTabs;
 import net.jaydentjd.extrawoodblocksultimate.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class ExtraWoodBlocksUltimate
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        CustomBlockEntityType.BLOCK_ENTITY_TYPES.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

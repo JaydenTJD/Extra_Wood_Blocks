@@ -1,7 +1,7 @@
 package net.jaydentjd.extrawoodblocksultimate.block;
 
 import net.jaydentjd.extrawoodblocksultimate.ExtraWoodBlocksUltimate;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomBedBlock;
+import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomWorkingBedBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomCartographyTableBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomGrindstoneBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomJukeboxBlock;
@@ -45,326 +45,326 @@ public class ModBlocks {
     public static final RegistryObject<BarrelBlock> WARPED_BARREL = registerBlock("warped_barrel",
             () -> new BarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL)), 64);
 
-    public static final RegistryObject<CustomBedBlock> BLACK_ACACIA_BED = registerBlock("acacia_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_ACACIA_BED = registerBlock("acacia_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_ACACIA_BED = registerBlock("acacia_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_ACACIA_BED = registerBlock("acacia_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_ACACIA_BED = registerBlock("acacia_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_ACACIA_BED = registerBlock("acacia_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_ACACIA_BED = registerBlock("acacia_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_ACACIA_BED = registerBlock("acacia_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_ACACIA_BED = registerBlock("acacia_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_ACACIA_BED = registerBlock("acacia_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_ACACIA_BED = registerBlock("acacia_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_ACACIA_BED = registerBlock("acacia_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_ACACIA_BED = registerBlock("acacia_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_ACACIA_BED = registerBlock("acacia_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_ACACIA_BED = registerBlock("acacia_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_ACACIA_BED = registerBlock("acacia_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_BAMBOO_BED = registerBlock("bamboo_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_BAMBOO_BED = registerBlock("bamboo_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_BAMBOO_BED = registerBlock("bamboo_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_BAMBOO_BED = registerBlock("bamboo_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_BAMBOO_BED = registerBlock("bamboo_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_BAMBOO_BED = registerBlock("bamboo_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_BAMBOO_BED = registerBlock("bamboo_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_BAMBOO_BED = registerBlock("bamboo_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_BAMBOO_BED = registerBlock("bamboo_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_BAMBOO_BED = registerBlock("bamboo_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_BAMBOO_BED = registerBlock("bamboo_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_BAMBOO_BED = registerBlock("bamboo_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_BAMBOO_BED = registerBlock("bamboo_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_BAMBOO_BED = registerBlock("bamboo_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_BAMBOO_BED = registerBlock("bamboo_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_BAMBOO_BED = registerBlock("bamboo_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_BIRCH_BED = registerBlock("birch_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_BIRCH_BED = registerBlock("birch_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_BIRCH_BED = registerBlock("birch_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_BIRCH_BED = registerBlock("birch_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_BIRCH_BED = registerBlock("birch_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_BIRCH_BED = registerBlock("birch_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_BIRCH_BED = registerBlock("birch_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_BIRCH_BED = registerBlock("birch_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_BIRCH_BED = registerBlock("birch_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_BIRCH_BED = registerBlock("birch_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_BIRCH_BED = registerBlock("birch_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_BIRCH_BED = registerBlock("birch_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_BIRCH_BED = registerBlock("birch_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_BIRCH_BED = registerBlock("birch_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_BIRCH_BED = registerBlock("birch_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_BIRCH_BED = registerBlock("birch_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_CHERRY_BED = registerBlock("cherry_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_CHERRY_BED = registerBlock("cherry_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_CHERRY_BED = registerBlock("cherry_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_CHERRY_BED = registerBlock("cherry_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_CHERRY_BED = registerBlock("cherry_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_CHERRY_BED = registerBlock("cherry_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_CHERRY_BED = registerBlock("cherry_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_CHERRY_BED = registerBlock("cherry_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_CHERRY_BED = registerBlock("cherry_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_CHERRY_BED = registerBlock("cherry_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_CHERRY_BED = registerBlock("cherry_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_CHERRY_BED = registerBlock("cherry_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_CHERRY_BED = registerBlock("cherry_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_CHERRY_BED = registerBlock("cherry_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_CHERRY_BED = registerBlock("cherry_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_CHERRY_BED = registerBlock("cherry_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_CRIMSON_BED = registerBlock("crimson_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_CRIMSON_BED = registerBlock("crimson_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_CRIMSON_BED = registerBlock("crimson_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_CRIMSON_BED = registerBlock("crimson_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_CRIMSON_BED = registerBlock("crimson_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_CRIMSON_BED = registerBlock("crimson_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_CRIMSON_BED = registerBlock("crimson_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_CRIMSON_BED = registerBlock("crimson_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_CRIMSON_BED = registerBlock("crimson_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_CRIMSON_BED = registerBlock("crimson_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_CRIMSON_BED = registerBlock("crimson_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_CRIMSON_BED = registerBlock("crimson_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_CRIMSON_BED = registerBlock("crimson_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_CRIMSON_BED = registerBlock("crimson_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_CRIMSON_BED = registerBlock("crimson_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_CRIMSON_BED = registerBlock("crimson_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_DARK_OAK_BED = registerBlock("dark_oak_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_DARK_OAK_BED = registerBlock("dark_oak_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_DARK_OAK_BED = registerBlock("dark_oak_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_DARK_OAK_BED = registerBlock("dark_oak_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_DARK_OAK_BED = registerBlock("dark_oak_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_DARK_OAK_BED = registerBlock("dark_oak_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_DARK_OAK_BED = registerBlock("dark_oak_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_DARK_OAK_BED = registerBlock("dark_oak_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_DARK_OAK_BED = registerBlock("dark_oak_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_DARK_OAK_BED = registerBlock("dark_oak_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_DARK_OAK_BED = registerBlock("dark_oak_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_DARK_OAK_BED = registerBlock("dark_oak_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_DARK_OAK_BED = registerBlock("dark_oak_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_DARK_OAK_BED = registerBlock("dark_oak_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_DARK_OAK_BED = registerBlock("dark_oak_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_DARK_OAK_BED = registerBlock("dark_oak_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_JUNGLE_BED = registerBlock("jungle_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_JUNGLE_BED = registerBlock("jungle_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_JUNGLE_BED = registerBlock("jungle_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_JUNGLE_BED = registerBlock("jungle_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_JUNGLE_BED = registerBlock("jungle_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_JUNGLE_BED = registerBlock("jungle_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_JUNGLE_BED = registerBlock("jungle_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_JUNGLE_BED = registerBlock("jungle_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_JUNGLE_BED = registerBlock("jungle_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_JUNGLE_BED = registerBlock("jungle_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_JUNGLE_BED = registerBlock("jungle_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_JUNGLE_BED = registerBlock("jungle_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_JUNGLE_BED = registerBlock("jungle_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_JUNGLE_BED = registerBlock("jungle_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_JUNGLE_BED = registerBlock("jungle_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_JUNGLE_BED = registerBlock("jungle_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_MANGROVE_BED = registerBlock("mangrove_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_MANGROVE_BED = registerBlock("mangrove_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_MANGROVE_BED = registerBlock("mangrove_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_MANGROVE_BED = registerBlock("mangrove_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_MANGROVE_BED = registerBlock("mangrove_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_MANGROVE_BED = registerBlock("mangrove_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_MANGROVE_BED = registerBlock("mangrove_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_MANGROVE_BED = registerBlock("mangrove_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_MANGROVE_BED = registerBlock("mangrove_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_MANGROVE_BED = registerBlock("mangrove_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_MANGROVE_BED = registerBlock("mangrove_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_MANGROVE_BED = registerBlock("mangrove_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_MANGROVE_BED = registerBlock("mangrove_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_MANGROVE_BED = registerBlock("mangrove_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_MANGROVE_BED = registerBlock("mangrove_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_MANGROVE_BED = registerBlock("mangrove_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_SPRUCE_BED = registerBlock("spruce_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_SPRUCE_BED = registerBlock("spruce_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_SPRUCE_BED = registerBlock("spruce_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_SPRUCE_BED = registerBlock("spruce_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_SPRUCE_BED = registerBlock("spruce_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_SPRUCE_BED = registerBlock("spruce_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_SPRUCE_BED = registerBlock("spruce_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_SPRUCE_BED = registerBlock("spruce_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_SPRUCE_BED = registerBlock("spruce_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_SPRUCE_BED = registerBlock("spruce_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_SPRUCE_BED = registerBlock("spruce_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_SPRUCE_BED = registerBlock("spruce_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_SPRUCE_BED = registerBlock("spruce_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_SPRUCE_BED = registerBlock("spruce_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_SPRUCE_BED = registerBlock("spruce_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_SPRUCE_BED = registerBlock("spruce_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLACK_WARPED_BED = registerBlock("warped_black_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BLUE_WARPED_BED = registerBlock("warped_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> BROWN_WARPED_BED = registerBlock("warped_brown_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> CYAN_WARPED_BED = registerBlock("warped_cyan_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GRAY_WARPED_BED = registerBlock("warped_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> GREEN_WARPED_BED = registerBlock("warped_green_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_BLUE_WARPED_BED = registerBlock("warped_light_blue_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIGHT_GRAY_WARPED_BED = registerBlock("warped_light_gray_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> LIME_WARPED_BED = registerBlock("warped_lime_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> MAGENTA_WARPED_BED = registerBlock("warped_magenta_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> ORANGE_WARPED_BED = registerBlock("warped_orange_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PINK_WARPED_BED = registerBlock("warped_pink_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> PURPLE_WARPED_BED = registerBlock("warped_purple_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> RED_WARPED_BED = registerBlock("warped_red_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> WHITE_WARPED_BED = registerBlock("warped_white_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
-    public static final RegistryObject<CustomBedBlock> YELLOW_WARPED_BED = registerBlock("warped_yellow_bed",
-            () -> new CustomBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_ACACIA_BED = registerBlock("acacia_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_ACACIA_BED = registerBlock("acacia_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_ACACIA_BED = registerBlock("acacia_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_ACACIA_BED = registerBlock("acacia_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_ACACIA_BED = registerBlock("acacia_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_ACACIA_BED = registerBlock("acacia_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_ACACIA_BED = registerBlock("acacia_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_ACACIA_BED = registerBlock("acacia_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_ACACIA_BED = registerBlock("acacia_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_ACACIA_BED = registerBlock("acacia_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_ACACIA_BED = registerBlock("acacia_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_ACACIA_BED = registerBlock("acacia_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_ACACIA_BED = registerBlock("acacia_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_ACACIA_BED = registerBlock("acacia_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_ACACIA_BED = registerBlock("acacia_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_ACACIA_BED = registerBlock("acacia_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_BAMBOO_BED = registerBlock("bamboo_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_BAMBOO_BED = registerBlock("bamboo_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_BAMBOO_BED = registerBlock("bamboo_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_BAMBOO_BED = registerBlock("bamboo_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_BAMBOO_BED = registerBlock("bamboo_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_BAMBOO_BED = registerBlock("bamboo_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_BAMBOO_BED = registerBlock("bamboo_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_BAMBOO_BED = registerBlock("bamboo_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_BAMBOO_BED = registerBlock("bamboo_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_BAMBOO_BED = registerBlock("bamboo_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_BAMBOO_BED = registerBlock("bamboo_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_BAMBOO_BED = registerBlock("bamboo_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_BAMBOO_BED = registerBlock("bamboo_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_BAMBOO_BED = registerBlock("bamboo_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_BAMBOO_BED = registerBlock("bamboo_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_BAMBOO_BED = registerBlock("bamboo_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_BIRCH_BED = registerBlock("birch_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_BIRCH_BED = registerBlock("birch_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_BIRCH_BED = registerBlock("birch_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_BIRCH_BED = registerBlock("birch_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_BIRCH_BED = registerBlock("birch_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_BIRCH_BED = registerBlock("birch_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_BIRCH_BED = registerBlock("birch_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_BIRCH_BED = registerBlock("birch_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_BIRCH_BED = registerBlock("birch_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_BIRCH_BED = registerBlock("birch_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_BIRCH_BED = registerBlock("birch_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_BIRCH_BED = registerBlock("birch_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_BIRCH_BED = registerBlock("birch_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_BIRCH_BED = registerBlock("birch_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_BIRCH_BED = registerBlock("birch_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_BIRCH_BED = registerBlock("birch_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_CHERRY_BED = registerBlock("cherry_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_CHERRY_BED = registerBlock("cherry_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_CHERRY_BED = registerBlock("cherry_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_CHERRY_BED = registerBlock("cherry_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_CHERRY_BED = registerBlock("cherry_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_CHERRY_BED = registerBlock("cherry_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_CHERRY_BED = registerBlock("cherry_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_CHERRY_BED = registerBlock("cherry_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_CHERRY_BED = registerBlock("cherry_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_CHERRY_BED = registerBlock("cherry_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_CHERRY_BED = registerBlock("cherry_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_CHERRY_BED = registerBlock("cherry_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_CHERRY_BED = registerBlock("cherry_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_CHERRY_BED = registerBlock("cherry_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_CHERRY_BED = registerBlock("cherry_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_CHERRY_BED = registerBlock("cherry_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_CRIMSON_BED = registerBlock("crimson_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_CRIMSON_BED = registerBlock("crimson_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_CRIMSON_BED = registerBlock("crimson_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_CRIMSON_BED = registerBlock("crimson_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_CRIMSON_BED = registerBlock("crimson_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_CRIMSON_BED = registerBlock("crimson_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_CRIMSON_BED = registerBlock("crimson_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_CRIMSON_BED = registerBlock("crimson_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_CRIMSON_BED = registerBlock("crimson_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_CRIMSON_BED = registerBlock("crimson_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_CRIMSON_BED = registerBlock("crimson_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_CRIMSON_BED = registerBlock("crimson_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_CRIMSON_BED = registerBlock("crimson_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_CRIMSON_BED = registerBlock("crimson_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_CRIMSON_BED = registerBlock("crimson_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_CRIMSON_BED = registerBlock("crimson_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_DARK_OAK_BED = registerBlock("dark_oak_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_DARK_OAK_BED = registerBlock("dark_oak_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_DARK_OAK_BED = registerBlock("dark_oak_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_DARK_OAK_BED = registerBlock("dark_oak_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_DARK_OAK_BED = registerBlock("dark_oak_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_DARK_OAK_BED = registerBlock("dark_oak_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_DARK_OAK_BED = registerBlock("dark_oak_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_DARK_OAK_BED = registerBlock("dark_oak_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_DARK_OAK_BED = registerBlock("dark_oak_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_DARK_OAK_BED = registerBlock("dark_oak_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_DARK_OAK_BED = registerBlock("dark_oak_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_DARK_OAK_BED = registerBlock("dark_oak_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_DARK_OAK_BED = registerBlock("dark_oak_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_DARK_OAK_BED = registerBlock("dark_oak_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_DARK_OAK_BED = registerBlock("dark_oak_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_DARK_OAK_BED = registerBlock("dark_oak_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_JUNGLE_BED = registerBlock("jungle_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_JUNGLE_BED = registerBlock("jungle_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_JUNGLE_BED = registerBlock("jungle_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_JUNGLE_BED = registerBlock("jungle_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_JUNGLE_BED = registerBlock("jungle_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_JUNGLE_BED = registerBlock("jungle_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_JUNGLE_BED = registerBlock("jungle_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_JUNGLE_BED = registerBlock("jungle_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_JUNGLE_BED = registerBlock("jungle_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_JUNGLE_BED = registerBlock("jungle_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_JUNGLE_BED = registerBlock("jungle_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_JUNGLE_BED = registerBlock("jungle_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_JUNGLE_BED = registerBlock("jungle_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_JUNGLE_BED = registerBlock("jungle_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_JUNGLE_BED = registerBlock("jungle_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_JUNGLE_BED = registerBlock("jungle_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_MANGROVE_BED = registerBlock("mangrove_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_MANGROVE_BED = registerBlock("mangrove_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_MANGROVE_BED = registerBlock("mangrove_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_MANGROVE_BED = registerBlock("mangrove_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_MANGROVE_BED = registerBlock("mangrove_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_MANGROVE_BED = registerBlock("mangrove_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_MANGROVE_BED = registerBlock("mangrove_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_MANGROVE_BED = registerBlock("mangrove_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_MANGROVE_BED = registerBlock("mangrove_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_MANGROVE_BED = registerBlock("mangrove_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_MANGROVE_BED = registerBlock("mangrove_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_MANGROVE_BED = registerBlock("mangrove_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_MANGROVE_BED = registerBlock("mangrove_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_MANGROVE_BED = registerBlock("mangrove_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_MANGROVE_BED = registerBlock("mangrove_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_MANGROVE_BED = registerBlock("mangrove_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_SPRUCE_BED = registerBlock("spruce_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_SPRUCE_BED = registerBlock("spruce_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_SPRUCE_BED = registerBlock("spruce_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_SPRUCE_BED = registerBlock("spruce_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_SPRUCE_BED = registerBlock("spruce_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_SPRUCE_BED = registerBlock("spruce_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_SPRUCE_BED = registerBlock("spruce_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_SPRUCE_BED = registerBlock("spruce_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_SPRUCE_BED = registerBlock("spruce_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_SPRUCE_BED = registerBlock("spruce_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_SPRUCE_BED = registerBlock("spruce_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_SPRUCE_BED = registerBlock("spruce_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_SPRUCE_BED = registerBlock("spruce_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_SPRUCE_BED = registerBlock("spruce_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_SPRUCE_BED = registerBlock("spruce_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_SPRUCE_BED = registerBlock("spruce_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLACK_WARPED_BED = registerBlock("warped_black_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BLUE_WARPED_BED = registerBlock("warped_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> BROWN_WARPED_BED = registerBlock("warped_brown_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> CYAN_WARPED_BED = registerBlock("warped_cyan_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GRAY_WARPED_BED = registerBlock("warped_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> GREEN_WARPED_BED = registerBlock("warped_green_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_BLUE_WARPED_BED = registerBlock("warped_light_blue_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIGHT_GRAY_WARPED_BED = registerBlock("warped_light_gray_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> LIME_WARPED_BED = registerBlock("warped_lime_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> MAGENTA_WARPED_BED = registerBlock("warped_magenta_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> ORANGE_WARPED_BED = registerBlock("warped_orange_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PINK_WARPED_BED = registerBlock("warped_pink_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> PURPLE_WARPED_BED = registerBlock("warped_purple_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> RED_WARPED_BED = registerBlock("warped_red_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> WHITE_WARPED_BED = registerBlock("warped_white_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
+    public static final RegistryObject<CustomWorkingBedBlock> YELLOW_WARPED_BED = registerBlock("warped_yellow_bed",
+            () -> new CustomWorkingBedBlock(DyeColor.BLACK,BlockBehaviour.Properties.copy(Blocks.BLACK_BED)), 1);
 
     public static final RegistryObject<BeehiveBlock> ACACIA_BEEHIVE = registerBlock("acacia_beehive",
             () -> new BeehiveBlock(BlockBehaviour.Properties.copy(Blocks.BEEHIVE)), 64);

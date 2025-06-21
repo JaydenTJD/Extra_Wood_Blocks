@@ -35,7 +35,7 @@ public class CustomJukeboxBlockEntity extends BlockEntity implements Clearable, 
     private boolean isPlaying;
 
     public CustomJukeboxBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(BlockEntityType.JUKEBOX, pPos, pBlockState);
+        super(CustomBlockEntityType.CUSTOM_JUKEBOX.get(), pPos, pBlockState);
     }
 
     public void load(CompoundTag pTag) {
@@ -160,7 +160,7 @@ public class CustomJukeboxBlockEntity extends BlockEntity implements Clearable, 
      * Don't rename this method to canInteractWith due to conflicts with Container
      */
     public boolean stillValid(Player pPlayer) {
-        return Container.stillValidBlockEntity(this, pPlayer);
+        return true;
     }
 
     /**
