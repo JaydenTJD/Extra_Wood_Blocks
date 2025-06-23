@@ -4,7 +4,6 @@ import net.jaydentjd.extrawoodblocksultimate.ExtraWoodBlocksUltimate;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomWorkingBedBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomCartographyTableBlock;
 import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomGrindstoneBlock;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomJukeboxBlock;
 import net.jaydentjd.extrawoodblocksultimate.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
@@ -561,28 +560,28 @@ public class ModBlocks {
     public static final RegistryObject<CustomGrindstoneBlock> WARPED_STONE_GRINDSTONE = registerBlock("warped_stone_grindstone",
             () -> new CustomGrindstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)), 64);
 
-    public static final RegistryObject<CustomJukeboxBlock> ACACIA_JUKEBOX = registerBlock("acacia_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> BAMBOO_JUKEBOX = registerBlock("bamboo_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> BIRCH_JUKEBOX = registerBlock("birch_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> CHERRY_JUKEBOX = registerBlock("cherry_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> CRIMSON_JUKEBOX = registerBlock("crimson_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> DARK_OAK_JUKEBOX = registerBlock("dark_oak_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> JUNGLE_JUKEBOX = registerBlock("jungle_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> MANGROVE_JUKEBOX = registerBlock("mangrove_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> OAK_JUKEBOX = registerBlock("oak_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> SPRUCE_JUKEBOX = registerBlock("spruce_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
-    public static final RegistryObject<CustomJukeboxBlock> WARPED_JUKEBOX = registerBlock("warped_jukebox",
-            () -> new CustomJukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> ACACIA_JUKEBOX = registerBlock("acacia_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> BAMBOO_JUKEBOX = registerBlock("bamboo_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> BIRCH_JUKEBOX = registerBlock("birch_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> CHERRY_JUKEBOX = registerBlock("cherry_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> CRIMSON_JUKEBOX = registerBlock("crimson_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> DARK_OAK_JUKEBOX = registerBlock("dark_oak_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> JUNGLE_JUKEBOX = registerBlock("jungle_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> MANGROVE_JUKEBOX = registerBlock("mangrove_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> OAK_JUKEBOX = registerBlock("oak_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> SPRUCE_JUKEBOX = registerBlock("spruce_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
+    public static final RegistryObject<JukeboxBlock> WARPED_JUKEBOX = registerBlock("warped_jukebox",
+            () -> new JukeboxBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)), 64);
 
     public static final RegistryObject<NoteBlock> ACACIA_NOTE_BLOCK = registerBlock("acacia_note_block",
             () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
@@ -606,6 +605,27 @@ public class ModBlocks {
             () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
     public static final RegistryObject<NoteBlock> WARPED_NOTE_BLOCK = registerBlock("warped_note_block",
             () -> new NoteBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)), 64);
+
+    public static final RegistryObject<LecternBlock> ACACIA_LECTERN = registerBlock("acacia_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> BAMBOO_LECTERN = registerBlock("bamboo_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> BIRCH_LECTERN = registerBlock("birch_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> CHERRY_LECTERN = registerBlock("cherry_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> CRIMSON_LECTERN = registerBlock("crimson_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> DARK_OAK_LECTERN = registerBlock("dark_oak_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> JUNGLE_LECTERN = registerBlock("jungle_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> MANGROVE_LECTERN = registerBlock("mangrove_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> SPRUCE_LECTERN = registerBlock("spruce_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+    public static final RegistryObject<LecternBlock> WARPED_LECTERN = registerBlock("warped_lectern",
+            () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
 
 
 

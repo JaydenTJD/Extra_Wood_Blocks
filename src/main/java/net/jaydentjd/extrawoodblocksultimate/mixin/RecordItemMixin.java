@@ -1,7 +1,5 @@
 package net.jaydentjd.extrawoodblocksultimate.mixin;
 
-import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomJukeboxBlock;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomJukeboxBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionResult;
@@ -20,13 +18,10 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(RecordItem.class)
-public class JukeboxMixin {
-    private RecordItem self() {
-        return (RecordItem) (Object) this;
-    }
+public class RecordItemMixin {
     /**
-     * @author
-     * @reason
+     * @author Jayden
+     * @reason To make the jukeboxes work
      */
     @Overwrite
     public InteractionResult useOn(UseOnContext pContext) {
@@ -52,18 +47,18 @@ public class JukeboxMixin {
 
             return InteractionResult.sidedSuccess(level.isClientSide);
 
-        } else if (blockstate.getBlock() instanceof CustomJukeboxBlock && !blockstate.getValue(CustomJukeboxBlock.HAS_RECORD)) {
-            ItemStack itemstack = pContext.getItemInHand();
+        } else if (blockstate.getBlock() instanceof JukeboxBlock && !blockstate.getValue(JukeboxBlock.HAS_RECORD)) {
+            ItemStack itemStack = pContext.getItemInHand();
             if (!level.isClientSide) {
                 Player player = pContext.getPlayer();
-                BlockEntity blockentity = level.getBlockEntity(blockpos);
-                if (blockentity instanceof CustomJukeboxBlockEntity) {
-                    CustomJukeboxBlockEntity jukeboxblockentity = (CustomJukeboxBlockEntity)blockentity;
-                    jukeboxblockentity.setFirstItem(itemstack.copy());
+                BlockEntity blockEntity = level.getBlockEntity(blockpos);
+                if (blockEntity instanceof JukeboxBlockEntity) {
+                    JukeboxBlockEntity jukeboxBlockEntity = (JukeboxBlockEntity)blockEntity;
+                    jukeboxBlockEntity.setFirstItem(itemStack.copy());
                     level.gameEvent(GameEvent.BLOCK_CHANGE, blockpos, GameEvent.Context.of(player, blockstate));
                 }
 
-                itemstack.shrink(1);
+                itemStack.shrink(1);
                 if (player != null) {
                     player.awardStat(Stats.PLAY_RECORD);
                 }

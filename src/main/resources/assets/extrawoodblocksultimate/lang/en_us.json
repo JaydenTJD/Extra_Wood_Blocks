@@ -286,5 +286,15 @@
   "block.extrawoodblocksultimate.oak_note_block": "Oak Note Block",
   "block.extrawoodblocksultimate.spruce_note_block": "Spruce Note Block",
   "block.extrawoodblocksultimate.warped_note_block": "Warped Note Block",
+  "block.extrawoodblocksultimate.acacia_lectern": "Acacia Lectern",
+  "block.extrawoodblocksultimate.bamboo_lectern": "Bamboo Lectern",
+  "block.extrawoodblocksultimate.birch_lectern": "Birch Lectern",
+  "block.extrawoodblocksultimate.cherry_lectern": "Cherry Lectern",
+  "block.extrawoodblocksultimate.crimson_lectern": "Crimson Lectern",
+  "block.extrawoodblocksultimate.dark_oak_lectern": "Dark Oak Lectern",
+  "block.extrawoodblocksultimate.jungle_lectern": "Jungle Lectern",
+  "block.extrawoodblocksultimate.mangrove_lectern": "Mangrove Lectern",
+  "block.extrawoodblocksultimate.spruce_lectern": "Spruce Lectern",
+  "block.extrawoodblocksultimate.warped_lectern": "Warped Lectern",
   "creativetab.wood_tab": "Extra Wood Blocks"
 }

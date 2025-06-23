@@ -22,5 +22,6 @@
   "block.minecraft.fletching_table": "Birch Fletching Table",
   "block.minecraft.grindstone": "Dark Oak Stone Grindstone",
   "block.minecraft.jukebox": "Default Jukebox",
-  "block.minecraft.note_block": "Default Note Block"
+  "block.minecraft.note_block": "Default Note Block",
+  "block.minecraft.lectern": "Oak Lectern"
 }

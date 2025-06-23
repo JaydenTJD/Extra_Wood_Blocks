@@ -4,6 +4,9 @@
   "package": "net.jaydentjd.extrawoodblocksultimate.mixin",
   "refmap": "extrawoodblocksultimate.mixin-refmap.json",
   "mixins": [
-    "JukeboxMixin"
+    "BlockEntityTypeMixin",
+    "RecordItemMixin",
+    "WritableBookItemMixin",
+    "WrittenBookItemMixin"
   ]
 }

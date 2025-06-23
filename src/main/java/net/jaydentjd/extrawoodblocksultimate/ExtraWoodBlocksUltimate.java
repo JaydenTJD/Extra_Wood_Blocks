@@ -2,10 +2,8 @@ package net.jaydentjd.extrawoodblocksultimate;
 
 import com.mojang.logging.LogUtils;
 import net.jaydentjd.extrawoodblocksultimate.block.ModBlocks;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.jukebox.CustomBlockEntityType;
 import net.jaydentjd.extrawoodblocksultimate.item.ModCreativeModTabs;
 import net.jaydentjd.extrawoodblocksultimate.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -34,7 +32,6 @@ public class ExtraWoodBlocksUltimate
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        CustomBlockEntityType.BLOCK_ENTITY_TYPES.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -45,8 +42,6 @@ public class ExtraWoodBlocksUltimate
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.SEARCH) {
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

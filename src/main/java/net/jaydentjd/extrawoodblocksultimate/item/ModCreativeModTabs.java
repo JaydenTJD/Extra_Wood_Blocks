@@ -337,6 +337,18 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.OAK_NOTE_BLOCK.get());
                         pOutput.accept(ModBlocks.SPRUCE_NOTE_BLOCK.get());
                         pOutput.accept(ModBlocks.WARPED_NOTE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.ACACIA_LECTERN.get());
+                        pOutput.accept(ModBlocks.BAMBOO_LECTERN.get());
+                        pOutput.accept(ModBlocks.BIRCH_LECTERN.get());
+                        pOutput.accept(ModBlocks.CHERRY_LECTERN.get());
+                        pOutput.accept(ModBlocks.CRIMSON_LECTERN.get());
+                        pOutput.accept(ModBlocks.DARK_OAK_LECTERN.get());
+                        pOutput.accept(ModBlocks.JUNGLE_LECTERN.get());
+                        pOutput.accept(ModBlocks.MANGROVE_LECTERN.get());
+                        pOutput.accept(Blocks.LECTERN);
+                        pOutput.accept(ModBlocks.SPRUCE_LECTERN.get());
+                        pOutput.accept(ModBlocks.WARPED_LECTERN.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {
