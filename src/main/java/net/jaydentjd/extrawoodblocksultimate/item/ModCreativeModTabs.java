@@ -363,17 +363,17 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SPRUCE_LOOM.get());
                         pOutput.accept(ModBlocks.WARPED_LOOM.get());
 
-                        pOutput.accept(ModItems.ACACIA_SHIELD.get());
-                        pOutput.accept(ModItems.BAMBOO_SHIELD.get());
-                        pOutput.accept(ModItems.BIRCH_SHIELD.get());
-                        pOutput.accept(ModItems.CHERRY_SHIELD.get());
-                        pOutput.accept(ModItems.CRIMSON_SHIELD.get());
-                        pOutput.accept(ModItems.DARK_OAK_SHIELD.get());
-                        pOutput.accept(ModItems.JUNGLE_SHIELD.get());
-                        pOutput.accept(ModItems.MANGROVE_SHIELD.get());
-                        pOutput.accept(ModItems.OAK_SHIELD.get());
-                        pOutput.accept(Items.SHIELD);
-                        pOutput.accept(ModItems.WARPED_SHIELD.get());
+//                        pOutput.accept(ModItems.ACACIA_SHIELD.get());
+//                        pOutput.accept(ModItems.BAMBOO_SHIELD.get());
+//                        pOutput.accept(ModItems.BIRCH_SHIELD.get());
+//                        pOutput.accept(ModItems.CHERRY_SHIELD.get());
+//                        pOutput.accept(ModItems.CRIMSON_SHIELD.get());
+//                        pOutput.accept(ModItems.DARK_OAK_SHIELD.get());
+//                        pOutput.accept(ModItems.JUNGLE_SHIELD.get());
+//                        pOutput.accept(ModItems.MANGROVE_SHIELD.get());
+//                        pOutput.accept(ModItems.OAK_SHIELD.get());
+//                        pOutput.accept(Items.SHIELD);
+//                        pOutput.accept(ModItems.WARPED_SHIELD.get());
 
                         pOutput.accept(ModBlocks.ACACIA_SMITHING_TABLE.get());
                         pOutput.accept(ModBlocks.BAMBOO_SMITHING_TABLE.get());
