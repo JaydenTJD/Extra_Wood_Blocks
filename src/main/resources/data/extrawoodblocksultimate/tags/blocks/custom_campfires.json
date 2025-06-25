@@ -1,0 +1,24 @@
+{
+  "values": [
+    "extrawoodblocksultimate:acacia_campfire",
+    "extrawoodblocksultimate:birch_campfire",
+    "extrawoodblocksultimate:cherry_campfire",
+    "extrawoodblocksultimate:crimson_campfire",
+    "extrawoodblocksultimate:dark_oak_campfire",
+    "extrawoodblocksultimate:jungle_campfire",
+    "extrawoodblocksultimate:mangrove_campfire",
+    "minecraft:campfire",
+    "extrawoodblocksultimate:spruce_campfire",
+    "extrawoodblocksultimate:warped_campfire",
+    "extrawoodblocksultimate:acacia_soul_campfire",
+    "extrawoodblocksultimate:birch_soul_campfire",
+    "extrawoodblocksultimate:cherry_soul_campfire",
+    "extrawoodblocksultimate:crimson_soul_campfire",
+    "extrawoodblocksultimate:dark_oak_soul_campfire",
+    "extrawoodblocksultimate:jungle_soul_campfire",
+    "extrawoodblocksultimate:mangrove_soul_campfire",
+    "minecraft:soul_campfire",
+    "extrawoodblocksultimate:spruce_soul_campfire",
+    "extrawoodblocksultimate:warped_soul_campfire"
+  ]
+}

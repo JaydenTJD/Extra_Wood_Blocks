@@ -24,6 +24,12 @@ public class BlockEntityTypeMixin {
     public boolean isValid(BlockState pState) {
         if (pState.is(ModTags.Blocks.JUKEBOXES)) {
             return true;
+        } else if (pState.is(ModTags.Blocks.LECTERNS)) {
+            return true;
+        } else if (pState.is(ModTags.Blocks.SMOKERS)) {
+            return true;
+        } else if (pState.is(ModTags.Blocks.CAMPFIRES)) {
+            return true;
         } else {
             return this.validBlocks.contains(pState.getBlock());
         }

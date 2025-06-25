@@ -1,9 +1,7 @@
 package net.jaydentjd.extrawoodblocksultimate.block;
 
 import net.jaydentjd.extrawoodblocksultimate.ExtraWoodBlocksUltimate;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomWorkingBedBlock;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomCartographyTableBlock;
-import net.jaydentjd.extrawoodblocksultimate.block.custom.CustomGrindstoneBlock;
+import net.jaydentjd.extrawoodblocksultimate.block.custom.*;
 import net.jaydentjd.extrawoodblocksultimate.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
@@ -626,6 +624,153 @@ public class ModBlocks {
             () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
     public static final RegistryObject<LecternBlock> WARPED_LECTERN = registerBlock("warped_lectern",
             () -> new LecternBlock(BlockBehaviour.Properties.copy(Blocks.LECTERN)), 64);
+
+    public static final RegistryObject<CustomLoomBlock> ACACIA_LOOM = registerBlock("acacia_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> BAMBOO_LOOM = registerBlock("bamboo_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> BIRCH_LOOM = registerBlock("birch_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> CHERRY_LOOM = registerBlock("cherry_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> CRIMSON_LOOM = registerBlock("crimson_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> DARK_OAK_LOOM = registerBlock("dark_oak_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> JUNGLE_LOOM = registerBlock("jungle_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> MANGROVE_LOOM = registerBlock("mangrove_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> SPRUCE_LOOM = registerBlock("spruce_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+    public static final RegistryObject<CustomLoomBlock> WARPED_LOOM = registerBlock("warped_loom",
+            () -> new CustomLoomBlock(BlockBehaviour.Properties.copy(Blocks.LOOM)), 64);
+
+    public static final RegistryObject<CustomSmithingTableBlock> ACACIA_SMITHING_TABLE = registerBlock("acacia_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> BAMBOO_SMITHING_TABLE = registerBlock("bamboo_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> BIRCH_SMITHING_TABLE = registerBlock("birch_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> CHERRY_SMITHING_TABLE = registerBlock("cherry_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> CRIMSON_SMITHING_TABLE = registerBlock("crimson_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> DARK_OAK_SMITHING_TABLE = registerBlock("dark_oak_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> JUNGLE_SMITHING_TABLE = registerBlock("jungle_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> MANGROVE_SMITHING_TABLE = registerBlock("mangrove_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> OAK_SMITHING_TABLE = registerBlock("oak_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> SPRUCE_SMITHING_TABLE = registerBlock("spruce_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+    public static final RegistryObject<CustomSmithingTableBlock> WARPED_SMITHING_TABLE = registerBlock("warped_smithing_table",
+            () -> new CustomSmithingTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)),  64);
+
+    public static final RegistryObject<SmokerBlock> ACACIA_BLACKSTONE_SMOKER = registerBlock("acacia_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> ACACIA_COBBLESTONE_SMOKER = registerBlock("acacia_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> ACACIA_DEEPSLATE_SMOKER = registerBlock("acacia_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BAMBOO_BLACKSTONE_SMOKER = registerBlock("bamboo_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BAMBOO_COBBLESTONE_SMOKER = registerBlock("bamboo_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BAMBOO_DEEPSLATE_SMOKER = registerBlock("bamboo_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BIRCH_BLACKSTONE_SMOKER = registerBlock("birch_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BIRCH_COBBLESTONE_SMOKER = registerBlock("birch_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> BIRCH_DEEPSLATE_SMOKER = registerBlock("birch_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CHERRY_BLACKSTONE_SMOKER = registerBlock("cherry_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CHERRY_COBBLESTONE_SMOKER = registerBlock("cherry_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CHERRY_DEEPSLATE_SMOKER = registerBlock("cherry_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CRIMSON_BLACKSTONE_SMOKER = registerBlock("crimson_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CRIMSON_COBBLESTONE_SMOKER = registerBlock("crimson_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> CRIMSON_DEEPSLATE_SMOKER = registerBlock("crimson_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> DARK_OAK_BLACKSTONE_SMOKER = registerBlock("dark_oak_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> DARK_OAK_COBBLESTONE_SMOKER = registerBlock("dark_oak_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> DARK_OAK_DEEPSLATE_SMOKER = registerBlock("dark_oak_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> JUNGLE_BLACKSTONE_SMOKER = registerBlock("jungle_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> JUNGLE_COBBLESTONE_SMOKER = registerBlock("jungle_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> JUNGLE_DEEPSLATE_SMOKER = registerBlock("jungle_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> MANGROVE_BLACKSTONE_SMOKER = registerBlock("mangrove_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> MANGROVE_COBBLESTONE_SMOKER = registerBlock("mangrove_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> MANGROVE_DEEPSLATE_SMOKER = registerBlock("mangrove_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> OAK_BLACKSTONE_SMOKER = registerBlock("oak_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> OAK_DEEPSLATE_SMOKER = registerBlock("oak_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> SPRUCE_BLACKSTONE_SMOKER = registerBlock("spruce_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> SPRUCE_COBBLESTONE_SMOKER = registerBlock("spruce_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> SPRUCE_DEEPSLATE_SMOKER = registerBlock("spruce_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> WARPED_BLACKSTONE_SMOKER = registerBlock("warped_blackstone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> WARPED_COBBLESTONE_SMOKER = registerBlock("warped_cobblestone_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+    public static final RegistryObject<SmokerBlock> WARPED_DEEPSLATE_SMOKER = registerBlock("warped_deepslate_smoker",
+            () -> new SmokerBlock(BlockBehaviour.Properties.copy(Blocks.SMOKER)), 64);
+
+    public static final RegistryObject<CampfireBlock> ACACIA_CAMPFIRE = registerBlock("acacia_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> BIRCH_CAMPFIRE = registerBlock("birch_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> CHERRY_CAMPFIRE = registerBlock("cherry_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> CRIMSON_CAMPFIRE = registerBlock("crimson_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> DARK_OAK_CAMPFIRE = registerBlock("dark_oak_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> JUNGLE_CAMPFIRE = registerBlock("jungle_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> MANGROVE_CAMPFIRE = registerBlock("mangrove_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> SPRUCE_CAMPFIRE = registerBlock("spruce_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> WARPED_CAMPFIRE = registerBlock("warped_campfire",
+            () -> new CampfireBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE).noOcclusion()), 64);
+
+    public static final RegistryObject<CampfireBlock> ACACIA_SOUL_CAMPFIRE = registerBlock("acacia_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> BIRCH_SOUL_CAMPFIRE = registerBlock("birch_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> CHERRY_SOUL_CAMPFIRE = registerBlock("cherry_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> CRIMSON_SOUL_CAMPFIRE = registerBlock("crimson_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> DARK_OAK_SOUL_CAMPFIRE = registerBlock("dark_oak_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> JUNGLE_SOUL_CAMPFIRE = registerBlock("jungle_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> MANGROVE_SOUL_CAMPFIRE = registerBlock("mangrove_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> SPRUCE_SOUL_CAMPFIRE = registerBlock("spruce_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
+    public static final RegistryObject<CampfireBlock> WARPED_SOUL_CAMPFIRE = registerBlock("warped_soul_campfire",
+            () -> new CampfireBlock(false, 2, BlockBehaviour.Properties.copy(Blocks.SOUL_CAMPFIRE).noOcclusion()), 64);
 
 
 

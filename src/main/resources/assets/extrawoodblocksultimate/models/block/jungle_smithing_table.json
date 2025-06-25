@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down": "extrawoodblocksultimate:block/jungle_smithing_table_bottom",
+        "east": "extrawoodblocksultimate:block/jungle_smithing_table_side",
+        "north": "extrawoodblocksultimate:block/jungle_smithing_table_front",
+        "particle": "extrawoodblocksultimate:block/jungle_smithing_table_front",
+        "south": "extrawoodblocksultimate:block/jungle_smithing_table_front",
+        "up": "minecraft:block/smithing_table_top",
+        "west": "extrawoodblocksultimate:block/jungle_smithing_table_side"
+    }
+}

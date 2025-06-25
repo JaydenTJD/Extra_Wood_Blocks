@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "extrawoodblocksultimate:block/crimson_loom",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "extrawoodblocksultimate:block/crimson_loom"
+        },
+        "facing=south": {
+            "model": "extrawoodblocksultimate:block/crimson_loom",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "extrawoodblocksultimate:block/crimson_loom",
+            "y": 270
+        }
+    }
+}

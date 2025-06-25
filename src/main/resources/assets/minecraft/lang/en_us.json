@@ -23,5 +23,11 @@
   "block.minecraft.grindstone": "Dark Oak Stone Grindstone",
   "block.minecraft.jukebox": "Default Jukebox",
   "block.minecraft.note_block": "Default Note Block",
-  "block.minecraft.lectern": "Oak Lectern"
+  "block.minecraft.lectern": "Oak Lectern",
+  "block.minecraft.loom": "Oak Loom",
+  "item.minecraft.shield": "Spruce Shield",
+  "block.minecraft.smithing_table": "Default Smithing Table",
+  "block.minecraft.campfire": "Oak Campfire",
+  "block.minecraft.soul_campfire": "Oak Soul Campfire",
+  "block.minecraft.smoker": "Oak Cobblestone Smoker"
 }
